@@ -1,0 +1,264 @@
+/* Vendor Dependencies */
+/* line 17, ../../../Downloads/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../Downloads/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../Downloads/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../Downloads/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../Downloads/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../Downloads/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../Downloads/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../Downloads/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../Downloads/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* Authored Dependencies */
+/* line 1, ../sass/_transforms.scss */
+.head:hover {
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  transform: rotate(8deg);
+  -webkit-transform-origin: 50% 60%;
+  -moz-transform-origin: 50% 60%;
+  -ms-transform-origin: 50% 60%;
+  -o-transform-origin: 50% 60%;
+  transform-origin: 50% 60%; }
+
+/* line 6, ../sass/_transforms.scss */
+.tail:hover {
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%; }
+
+/* line 11, ../sass/_transforms.scss */
+.left-arm:hover {
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+  -webkit-transform-origin: 100% 0;
+  -moz-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  -o-transform-origin: 100% 0;
+  transform-origin: 100% 0; }
+
+/* line 16, ../sass/_transforms.scss */
+.right-arm:hover {
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  transform: rotate(15deg);
+  -webkit-transform-origin: 100% 0;
+  -moz-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  -o-transform-origin: 100% 0;
+  transform-origin: 100% 0; }
+
+/* line 21, ../sass/_transforms.scss */
+.left-foot:hover {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  transform-origin: 50% 0; }
+
+/* line 26, ../sass/_transforms.scss */
+.right-foot:hover {
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  transform: rotate(15deg);
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%; }
+
+/* Patterns */
+/* line 3, ../sass/_body-parts.scss */
+.owl-rat {
+  height: 605px;
+  width: 431px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -350px;
+  margin-left: -215px; }
+
+/* line 12, ../sass/_body-parts.scss */
+.body-part {
+  position: absolute;
+  transition-property: background;
+  transition-duration: .6s;
+  transition-timing-function: linear, ease-in; }
+
+/* line 19, ../sass/_body-parts.scss */
+.head {
+  background: url("../images/owl-rat-head.png") 0 0 no-repeat;
+  height: 246px;
+  left: 133px;
+  top: 190px;
+  width: 205px;
+  z-index: 5; }
+
+/* line 28, ../sass/_body-parts.scss */
+.body {
+  background: url("../images/owl-rat-body.png") 0 0 no-repeat;
+  height: 422px;
+  left: 67px;
+  top: 157px;
+  width: 364px;
+  z-index: 3; }
+
+/* line 37, ../sass/_body-parts.scss */
+.tail {
+  background: url("../images/owl-rat-tail.png") 0 0 no-repeat;
+  height: 97px;
+  left: 327px;
+  top: 73px;
+  width: 52px;
+  z-index: 3; }
+
+/* line 46, ../sass/_body-parts.scss */
+.left-arm {
+  background: url("../images/owl-rat-left-arm.png") 0 0 no-repeat;
+  height: 195px;
+  left: 152px;
+  top: 251px;
+  width: 103px;
+  z-index: 3; }
+
+/* line 55, ../sass/_body-parts.scss */
+.right-arm {
+  background: url("../images/owl-rat-right-arm.png") 0 0 no-repeat;
+  height: 170px;
+  left: 0;
+  top: 196px;
+  width: 112px;
+  z-index: 3; }
+
+/* line 64, ../sass/_body-parts.scss */
+.left-foot {
+  background: url("../images/owl-rat-left-foot.png") 0 0 no-repeat;
+  height: 154px;
+  left: 142px;
+  top: 450px;
+  width: 138px;
+  z-index: 2; }
+
+/* line 73, ../sass/_body-parts.scss */
+.right-foot {
+  background: url("../images/owl-rat-right-foot.png") 0 0 no-repeat;
+  height: 153px;
+  left: 40px;
+  top: 440px;
+  width: 150px;
+  z-index: 4; }
+
+/* Sections */
+/* line 19, ../sass/screen.scss */
+.owl,
+.rat,
+.sign {
+  display: block;
+  float: left; }
+
+/* line 24, ../sass/screen.scss */
+a {
+  color: black;
+  text-decoration: none; }
+
+/* line 29, ../sass/screen.scss */
+.sign {
+  font-size: 200px;
+  font-weight: bold;
+  margin: 0;
+  display: none; }
+
+/* line 37, ../sass/screen.scss */
+.rat {
+  background: url("../images/rat.jpg") 0 0 no-repeat;
+  height: 400px;
+  margin: auto;
+  width: 594px;
+  z-index: 5; }
+
+/* line 45, ../sass/screen.scss */
+.owl {
+  background: url("../images/owl.png") 0 0 no-repeat;
+  height: 292px;
+  width: 500px;
+  z-index: 5;
+  position: absolute; }
+
+/* line 53, ../sass/screen.scss */
+.target {
+  height: 292px;
+  background-color: #000000;
+  color: white;
+  font-size: 0.6em;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  width: 100px; }

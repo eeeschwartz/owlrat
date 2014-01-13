@@ -1,0 +1,68 @@
+/* Vendor Dependencies */
+@import "compass/reset";
+@import "compass/css3/transform";
+
+/* Authored Dependencies */
+@import "transforms";
+
+/* Patterns */
+@import "body-parts";
+
+/* Sections */
+
+
+
+
+
+.owl,
+.rat,
+.sign {
+  display: block;
+  float: left;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.sign {
+  font-size: 200px;
+  font-weight: bold;
+  margin: 0;
+  display: none;
+}
+
+
+.rat {
+  background: url("../images/rat.jpg") 0 0 no-repeat;
+  height: 400px;
+  margin: auto;
+  width: 594px;
+  z-index: 5;
+}
+
+.owl {
+  background: url("../images/owl.png") 0 0 no-repeat;
+  height: 292px;
+  width: 500px;
+  z-index: 5;
+  position: absolute;
+}
+
+.target {
+  height: 292px;
+  background-color: #000000;
+  color: white;
+  font-size: 0.6em;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  width: 100px;
+}
+
+
+
+
+

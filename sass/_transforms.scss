@@ -1,0 +1,29 @@
+.head:hover {
+  @include transform(rotate(8deg));
+  @include transform-origin(50%, 60%);
+}
+
+.tail:hover {
+  @include transform(rotate(-20deg));
+  @include transform-origin(50%, 100%);
+}
+
+.left-arm:hover {
+  @include transform(rotate(-60deg));
+  @include transform-origin(100%, 0);
+}
+
+.right-arm:hover {
+  @include transform(rotate(15deg));
+  @include transform-origin(100%, 0);
+}
+
+.left-foot:hover {
+  @include transform(rotate(45deg));
+  @include transform-origin(50%, 0);
+}
+
+.right-foot:hover {
+  @include transform(rotate(15deg));
+  @include transform-origin(50%, 50%);
+}

@@ -1,0 +1,80 @@
+
+
+.owl-rat {
+  height: 605px;
+  width: 431px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -350px;
+  margin-left: -215px;}
+
+.body-part {
+  position: absolute;
+  transition-property: background;
+    transition-duration: .6s;
+    transition-timing-function: linear, ease-in;
+}
+
+.head {
+  background: url("../images/owl-rat-head.png") 0 0 no-repeat;
+  height: 246px;
+  left: 133px;
+  top: 190px;
+  width: 205px;
+  z-index: 5;
+}
+
+.body {
+  background: url("../images/owl-rat-body.png") 0 0 no-repeat;
+  height: 422px;
+  left: 67px;
+  top: 157px;
+  width: 364px;
+  z-index: 3;
+}
+
+.tail {
+  background: url("../images/owl-rat-tail.png") 0 0 no-repeat;
+  height: 97px;
+  left: 327px;
+  top: 73px;
+  width: 52px;
+  z-index: 3;
+}
+
+.left-arm {
+  background: url("../images/owl-rat-left-arm.png") 0 0 no-repeat;
+  height: 195px;
+  left: 152px;
+  top: 251px;
+  width: 103px;
+  z-index: 3;
+}
+
+.right-arm {
+  background: url("../images/owl-rat-right-arm.png") 0 0 no-repeat;
+  height: 170px;
+  left: 0;
+  top: 196px;
+  width: 112px;
+  z-index: 3;
+}
+
+.left-foot {
+  background: url("../images/owl-rat-left-foot.png") 0 0 no-repeat;
+  height: 154px;
+  left: 142px;
+  top: 450px;
+  width: 138px;
+  z-index: 2;
+}
+
+.right-foot {
+  background: url("../images/owl-rat-right-foot.png") 0 0 no-repeat;
+  height: 153px;
+  left: 40px;
+  top: 440px;
+  width: 150px;
+  z-index: 4;
+}
