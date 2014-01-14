@@ -178,14 +178,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-top: -350px;
   margin-left: -215px; }
 
-/* line 12, ../sass/_body-parts.scss */
-.body-part {
-  position: absolute;
-  transition-property: background;
-  transition-duration: .6s;
-  transition-timing-function: linear, ease-in; }
-
-/* line 19, ../sass/_body-parts.scss */
+/* line 13, ../sass/_body-parts.scss */
 .head {
   background: url("../images/owl-rat-head.png") 0 0 no-repeat;
   height: 246px;
@@ -194,16 +187,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 205px;
   z-index: 5; }
 
-/* line 28, ../sass/_body-parts.scss */
+/* line 22, ../sass/_body-parts.scss */
 .body {
   background: url("../images/owl-rat-body.png") 0 0 no-repeat;
   height: 422px;
   left: 67px;
+  position: absolute;
   top: 157px;
   width: 364px;
   z-index: 3; }
 
-/* line 37, ../sass/_body-parts.scss */
+/* line 32, ../sass/_body-parts.scss */
 .tail {
   background: url("../images/owl-rat-tail.png") 0 0 no-repeat;
   height: 97px;
@@ -212,7 +206,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 52px;
   z-index: 3; }
 
-/* line 46, ../sass/_body-parts.scss */
+/* line 41, ../sass/_body-parts.scss */
 .left-arm {
   background: url("../images/owl-rat-left-arm.png") 0 0 no-repeat;
   height: 195px;
@@ -221,7 +215,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 103px;
   z-index: 3; }
 
-/* line 55, ../sass/_body-parts.scss */
+/* line 50, ../sass/_body-parts.scss */
 .right-arm {
   background: url("../images/owl-rat-right-arm.png") 0 0 no-repeat;
   height: 170px;
@@ -230,16 +224,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 112px;
   z-index: 3; }
 
-/* line 64, ../sass/_body-parts.scss */
+/* line 59, ../sass/_body-parts.scss */
 .left-foot {
   background: url("../images/owl-rat-left-foot.png") 0 0 no-repeat;
   height: 154px;
   left: 142px;
+  position: absolute;
   top: 450px;
   width: 138px;
   z-index: 2; }
 
-/* line 73, ../sass/_body-parts.scss */
+/* line 69, ../sass/_body-parts.scss */
 .right-foot {
   background: url("../images/owl-rat-right-foot.png") 0 0 no-repeat;
   height: 153px;
