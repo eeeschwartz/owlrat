@@ -56,115 +56,116 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 /* Authored Dependencies */
+/* line 1, ../sass/_transforms.scss */
+.body-part {
+  position: absolute;
+  transition-property: background;
+  -webkit-animation: head .7s ease-in-out 3 alternate; }
+
 @-webkit-keyframes head {
-  /* line 27, ../sass/_transforms.scss */
+  /* line 8, ../sass/_transforms.scss */
   from {
     -webkit-transform: rotate(0); }
 
-  /* line 28, ../sass/_transforms.scss */
+  /* line 9, ../sass/_transforms.scss */
   50% {
     -webkit-transform: rotate(8deg); }
 
-  /* line 29, ../sass/_transforms.scss */
+  /* line 10, ../sass/_transforms.scss */
   to {
     -webkit-transform: rotate(0); } }
 
-/* line 32, ../sass/_transforms.scss */
+/* line 13, ../sass/_transforms.scss */
 .rotate-head {
   -webkit-transform-origin: 50% 60%;
   -moz-transform-origin: 50% 60%;
   -ms-transform-origin: 50% 60%;
   -o-transform-origin: 50% 60%;
-  transform-origin: 50% 60%;
-  -webkit-animation: head .7s ease-in-out 3 alternate; }
+  transform-origin: 50% 60%; }
 
 @-webkit-keyframes tail {
-  /* line 39, ../sass/_transforms.scss */
+  /* line 20, ../sass/_transforms.scss */
   from {
     -webkit-transform: rotate(0); }
 
-  /* line 40, ../sass/_transforms.scss */
+  /* line 21, ../sass/_transforms.scss */
   50% {
     -webkit-transform: rotate(-20deg); }
 
-  /* line 41, ../sass/_transforms.scss */
+  /* line 22, ../sass/_transforms.scss */
   to {
     -webkit-transform: rotate(0); } }
 
-/* line 44, ../sass/_transforms.scss */
+/* line 25, ../sass/_transforms.scss */
 .rotate-tail {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   -o-transform-origin: 50% 100%;
-  transform-origin: 50% 100%;
-  -webkit-animation: tail .7s ease-in-out 3 alternate; }
+  transform-origin: 50% 100%; }
 
 @-webkit-keyframes left-arm {
-  /* line 51, ../sass/_transforms.scss */
+  /* line 32, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(-15deg); }
+    -webkit-transform: rotate(0); }
 
-  /* line 52, ../sass/_transforms.scss */
+  /* line 33, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(-60deg); }
+    -webkit-transform: rotate(-50deg); }
 
-  /* line 53, ../sass/_transforms.scss */
+  /* line 34, ../sass/_transforms.scss */
   to {
     -webkit-transform: rotate(0); } }
 
-/* line 56, ../sass/_transforms.scss */
+/* line 37, ../sass/_transforms.scss */
 .rotate-left-arm {
   -webkit-transform-origin: 100% 0;
   -moz-transform-origin: 100% 0;
   -ms-transform-origin: 100% 0;
   -o-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-  -webkit-animation: left-arm .7s ease-in-out 3 alternate; }
+  transform-origin: 100% 0; }
 
 @-webkit-keyframes right-arm {
-  /* line 63, ../sass/_transforms.scss */
+  /* line 44, ../sass/_transforms.scss */
   from {
     -webkit-transform: rotate(0); }
 
-  /* line 64, ../sass/_transforms.scss */
+  /* line 45, ../sass/_transforms.scss */
   50% {
     -webkit-transform: rotate(15deg); }
 
-  /* line 65, ../sass/_transforms.scss */
+  /* line 46, ../sass/_transforms.scss */
   to {
     -webkit-transform: rotate(0); } }
 
-/* line 68, ../sass/_transforms.scss */
+/* line 49, ../sass/_transforms.scss */
 .rotate-right-arm {
   -webkit-transform-origin: 100% 0;
   -moz-transform-origin: 100% 0;
   -ms-transform-origin: 100% 0;
   -o-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-  -webkit-animation: right-arm .7s ease-in-out 3 alternate; }
+  transform-origin: 100% 0; }
 
 @-webkit-keyframes right-foot {
-  /* line 76, ../sass/_transforms.scss */
+  /* line 57, ../sass/_transforms.scss */
   from {
     -webkit-transform: rotate(0); }
 
-  /* line 77, ../sass/_transforms.scss */
+  /* line 58, ../sass/_transforms.scss */
   50% {
     -webkit-transform: rotate(15deg); }
 
-  /* line 78, ../sass/_transforms.scss */
+  /* line 59, ../sass/_transforms.scss */
   to {
     -webkit-transform: rotate(0); } }
 
-/* line 81, ../sass/_transforms.scss */
+/* line 62, ../sass/_transforms.scss */
 .rotate-right-foot {
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-  -webkit-animation: right-foot .7s ease-in-out 3 alternate; }
+  transform-origin: 50% 50%; }
 
 /* Patterns */
 /* line 3, ../sass/_body-parts.scss */
@@ -178,14 +179,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-left: -215px; }
 
 /* line 12, ../sass/_body-parts.scss */
-.body-part, .rotate-right-foot, .rotate-left-foot, .rotate-right-arm, .rotate-left-arm, .rotate-tail, .rotate-head {
+.body-part {
   position: absolute;
   transition-property: background;
   transition-duration: .6s;
   transition-timing-function: linear, ease-in; }
 
 /* line 19, ../sass/_body-parts.scss */
-.head, .rotate-head {
+.head {
   background: url("../images/owl-rat-head.png") 0 0 no-repeat;
   height: 246px;
   left: 43px;
@@ -203,7 +204,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   z-index: 3; }
 
 /* line 37, ../sass/_body-parts.scss */
-.tail, .rotate-tail {
+.tail {
   background: url("../images/owl-rat-tail.png") 0 0 no-repeat;
   height: 97px;
   left: 327px;
@@ -212,7 +213,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   z-index: 3; }
 
 /* line 46, ../sass/_body-parts.scss */
-.left-arm, .rotate-left-arm {
+.left-arm {
   background: url("../images/owl-rat-left-arm.png") 0 0 no-repeat;
   height: 195px;
   left: 133px;
@@ -221,7 +222,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   z-index: 3; }
 
 /* line 55, ../sass/_body-parts.scss */
-.right-arm, .rotate-right-arm {
+.right-arm {
   background: url("../images/owl-rat-right-arm.png") 0 0 no-repeat;
   height: 170px;
   left: 0;
@@ -239,7 +240,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   z-index: 2; }
 
 /* line 73, ../sass/_body-parts.scss */
-.right-foot, .rotate-right-foot {
+.right-foot {
   background: url("../images/owl-rat-right-foot.png") 0 0 no-repeat;
   height: 153px;
   left: 40px;

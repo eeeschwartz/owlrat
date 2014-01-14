@@ -4,3 +4,9 @@ images/.DS_Store
 .DS_Store
 
 *.scssc
+
+*.scssc
+
+.sass-cache/364f8a512049f58a1a09f1c1c010ce06f89c65e8/_transforms.scssc
+
+*.scssc
