@@ -1,29 +1,105 @@
-.head:hover {
-  @include transform(rotate(8deg));
+// .rotate-head {
+//   @include transform(rotate(8deg));
+//   @include transform-origin(50%, 60%);
+//   @extend .head;
+// }
+
+// .rotate-tail {
+//   @include transform(rotate(-20deg));
+//   @include transform-origin(50%, 100%);
+//   @extend .tail;
+// }
+
+
+// .rotate-left-arm {
+//   @include transform(rotate(-60deg));
+//   @include transform-origin(100%, 0);
+//   @extend .left-arm;
+// }
+
+// .rotate-right-arm {
+//   @include transform(rotate(15deg));
+//   @include transform-origin(100%, 0);
+//   @extend .right-arm;
+// }
+
+@-webkit-keyframes head {
+  from { -webkit-transform: rotate(0); }
+  50% { -webkit-transform: rotate(8deg); }
+  to { -webkit-transform: rotate(0); }
+}
+
+.rotate-head {
+  @extend .head;
   @include transform-origin(50%, 60%);
+  -webkit-animation: head .7s ease-in-out 3 alternate;
 }
 
-.tail:hover {
-  @include transform(rotate(-20deg));
+@-webkit-keyframes tail {
+  from { -webkit-transform: rotate(0); }
+  50% { -webkit-transform: rotate(-20deg); }
+  to { -webkit-transform: rotate(0); }
+}
+
+.rotate-tail {
+  @extend .tail;
   @include transform-origin(50%, 100%);
+  -webkit-animation: tail .7s ease-in-out 3 alternate;
 }
 
-.left-arm:hover {
-  @include transform(rotate(-60deg));
+@-webkit-keyframes left-arm {
+  from { -webkit-transform: rotate(-15deg); }
+  50% { -webkit-transform: rotate(-60deg); }
+  to { -webkit-transform: rotate(0); }
+}
+
+.rotate-left-arm {
+  @extend .left-arm;
   @include transform-origin(100%, 0);
+  -webkit-animation: left-arm .7s ease-in-out 3 alternate;
 }
 
-.right-arm:hover {
-  @include transform(rotate(15deg));
+@-webkit-keyframes right-arm {
+  from { -webkit-transform: rotate(0); }
+  50% { -webkit-transform: rotate(15deg); }
+  to { -webkit-transform: rotate(0); }
+}
+
+.rotate-right-arm {
+  @extend .right-arm;
   @include transform-origin(100%, 0);
+  -webkit-animation: right-arm .7s ease-in-out 3 alternate;
 }
 
-.left-foot:hover {
-  @include transform(rotate(45deg));
-  @include transform-origin(50%, 0);
+
+@-webkit-keyframes right-foot {
+  from { -webkit-transform: rotate(0); }
+  50% { -webkit-transform: rotate(15deg); }
+  to { -webkit-transform: rotate(0); }
 }
 
-.right-foot:hover {
-  @include transform(rotate(15deg));
+.rotate-right-foot {
+  @extend .right-foot;
   @include transform-origin(50%, 50%);
+  -webkit-animation: right-foot .7s ease-in-out 3 alternate;
 }
+
+
+
+
+// .rotate-right-foot {
+//   @include transform(rotate(15deg));
+//   @include transform-origin(50%, 50%);
+//   @extend .right-foot;
+// }
+
+.rotate-right-foot, .rotate-left-foot, .rotate-right-arm, .rotate-left-arm, .rotate-tail, .rotate-head {
+  @extend .body-part;
+}
+
+
+// .rotate-left-foot {
+//   @include transform(rotate(45deg));
+//   @include transform-origin(50%, 0);
+//   @extend .left-foot;
+// }

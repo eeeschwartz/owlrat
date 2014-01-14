@@ -10,20 +10,62 @@
 
   <link rel="stylesheet" href="stylesheets/screen.css">
   <script type="text/javascript" src="javascripts/main.js"></script>
+  <script type"text/javascript">
+
+  // function rotateImage() {
+  //   document.getElementById('head-js').style.WebkitTransition = 'rotate 8deg';
+  // };
+
+  function rotateHead() {
+    var img = document.getElementById("head-js");
+    img.setAttribute("class", "rotate-head");
+  }
+
+  function rotateTail() {
+    var img = document.getElementById("tail-js");
+    img.setAttribute("class", "rotate-tail");
+  }
+
+  function rotateLeftArm() {
+    var img = document.getElementById("left-arm-js");
+    img.setAttribute("class", "rotate-left-arm");
+  }
+
+  function rotateRightArm() {
+    var img = document.getElementById("right-arm-js");
+    img.setAttribute("class", "rotate-right-arm");
+  }
+
+  function rotateLeftFoot() {
+    var img = document.getElementById("left-foot-js");
+    img.setAttribute("class", "rotate-left-foot");
+  }
+
+  function rotateRightFoot() {
+    var img = document.getElementById("right-foot-js");
+    img.setAttribute("class", "rotate-right-foot");
+  }
+
+
+
+  </script>
 </head>
 <body class="container">
 
   <section class="owl-rat">
 
-    <div class="head body-part"></div>
+    <div class="head body-part" id="head-js"></div>
     <div class="body body-part"></div>
-    <div class="tail body-part"></div>
-    <div class="left-arm body-part"></div>
-    <div class="right-arm body-part"></div>
-    <div class="left-foot body-part"></div>
-    <div class="right-foot body-part"></div>
+    <div class="tail body-part" id="tail-js"></div>
+    <div class="left-arm body-part" id="left-arm-js"></div>
+    <div class="right-arm body-part" id="right-arm-js"></div>
+    <div class="left-foot body-part" id="left-foot-js"></div>
+    <div class="right-foot body-part" id="right-foot-js"></div>
+
 
   </section>
+
+    <button id="submit" onClick="rotateHead(), rotateTail(), rotateLeftArm(), rotateRightArm(), rotateRightFoot()">Owlrat, Owlrat, Owlrat!</button>
 
 </body>
 </html>
