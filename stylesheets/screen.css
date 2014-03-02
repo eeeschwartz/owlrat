@@ -59,56 +59,104 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 @-webkit-keyframes head {
   /* line 17, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 18, ../sass/_transforms.scss */
+  /* line 23, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(8deg); }
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    transform: rotate(8deg); }
 
-  /* line 19, ../sass/_transforms.scss */
+  /* line 30, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @-moz-keyframes head {
   /* line 17, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 18, ../sass/_transforms.scss */
+  /* line 23, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(8deg); }
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    transform: rotate(8deg); }
 
-  /* line 19, ../sass/_transforms.scss */
+  /* line 30, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @-ms-keyframes head {
   /* line 17, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 18, ../sass/_transforms.scss */
+  /* line 23, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(8deg); }
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    transform: rotate(8deg); }
 
-  /* line 19, ../sass/_transforms.scss */
+  /* line 30, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @keyframes head {
   /* line 17, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 18, ../sass/_transforms.scss */
+  /* line 23, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(8deg); }
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    transform: rotate(8deg); }
 
-  /* line 19, ../sass/_transforms.scss */
+  /* line 30, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
-/* line 22, ../sass/_transforms.scss */
+/* line 38, ../sass/_transforms.scss */
 .rotate-head {
   -webkit-transform-origin: 50% 60%;
   -moz-transform-origin: 50% 60%;
@@ -120,256 +168,456 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   animation: head .7s ease-in-out 3 alternate; }
 
 @-webkit-keyframes tail {
-  /* line 30, ../sass/_transforms.scss */
+  /* line 46, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 31, ../sass/_transforms.scss */
+  /* line 52, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(-20deg); }
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg); }
 
-  /* line 32, ../sass/_transforms.scss */
+  /* line 59, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @-moz-keyframes tail {
-  /* line 30, ../sass/_transforms.scss */
+  /* line 46, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 31, ../sass/_transforms.scss */
+  /* line 52, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(-20deg); }
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg); }
 
-  /* line 32, ../sass/_transforms.scss */
+  /* line 59, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @-ms-keyframes tail {
-  /* line 30, ../sass/_transforms.scss */
+  /* line 46, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 31, ../sass/_transforms.scss */
+  /* line 52, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(-20deg); }
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg); }
 
-  /* line 32, ../sass/_transforms.scss */
+  /* line 59, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @keyframes tail {
-  /* line 30, ../sass/_transforms.scss */
+  /* line 46, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 31, ../sass/_transforms.scss */
+  /* line 52, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(-20deg); }
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg); }
 
-  /* line 32, ../sass/_transforms.scss */
+  /* line 59, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
-/* line 35, ../sass/_transforms.scss */
+/* line 68, ../sass/_transforms.scss */
 .rotate-tail {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   -o-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
-  -webkit-animation: tail .7s ease-in-out 3 alternate; }
+  -webkit-animation: tail .7s ease-in-out 3 alternate;
+  -moz-animation: tail .7s ease-in-out 3 alternate;
+  animation: tail .7s ease-in-out 3 alternate; }
 
 @-webkit-keyframes left-arm {
-  /* line 41, ../sass/_transforms.scss */
+  /* line 76, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 42, ../sass/_transforms.scss */
+  /* line 82, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(-50deg); }
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    -o-transform: rotate(-50deg);
+    transform: rotate(-50deg); }
 
-  /* line 43, ../sass/_transforms.scss */
+  /* line 89, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @-moz-keyframes left-arm {
-  /* line 41, ../sass/_transforms.scss */
+  /* line 76, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 42, ../sass/_transforms.scss */
+  /* line 82, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(-50deg); }
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    -o-transform: rotate(-50deg);
+    transform: rotate(-50deg); }
 
-  /* line 43, ../sass/_transforms.scss */
+  /* line 89, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @-ms-keyframes left-arm {
-  /* line 41, ../sass/_transforms.scss */
+  /* line 76, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 42, ../sass/_transforms.scss */
+  /* line 82, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(-50deg); }
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    -o-transform: rotate(-50deg);
+    transform: rotate(-50deg); }
 
-  /* line 43, ../sass/_transforms.scss */
+  /* line 89, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @keyframes left-arm {
-  /* line 41, ../sass/_transforms.scss */
+  /* line 76, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 42, ../sass/_transforms.scss */
+  /* line 82, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(-50deg); }
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    -o-transform: rotate(-50deg);
+    transform: rotate(-50deg); }
 
-  /* line 43, ../sass/_transforms.scss */
+  /* line 89, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
-/* line 46, ../sass/_transforms.scss */
+/* line 98, ../sass/_transforms.scss */
 .rotate-left-arm {
   -webkit-transform-origin: 100% 0;
   -moz-transform-origin: 100% 0;
   -ms-transform-origin: 100% 0;
   -o-transform-origin: 100% 0;
   transform-origin: 100% 0;
-  -webkit-animation: left-arm .7s ease-in-out 3 alternate; }
+  -webkit-animation: left-arm .7s ease-in-out 3 alternate;
+  -moz-animation: left-arm .7s ease-in-out 3 alternate;
+  animation: left-arm .7s ease-in-out 3 alternate; }
 
 @-webkit-keyframes right-arm {
-  /* line 52, ../sass/_transforms.scss */
+  /* line 106, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 53, ../sass/_transforms.scss */
+  /* line 112, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(15deg); }
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg); }
 
-  /* line 54, ../sass/_transforms.scss */
+  /* line 119, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @-moz-keyframes right-arm {
-  /* line 52, ../sass/_transforms.scss */
+  /* line 106, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 53, ../sass/_transforms.scss */
+  /* line 112, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(15deg); }
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg); }
 
-  /* line 54, ../sass/_transforms.scss */
+  /* line 119, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @-ms-keyframes right-arm {
-  /* line 52, ../sass/_transforms.scss */
+  /* line 106, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 53, ../sass/_transforms.scss */
+  /* line 112, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(15deg); }
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg); }
 
-  /* line 54, ../sass/_transforms.scss */
+  /* line 119, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @keyframes right-arm {
-  /* line 52, ../sass/_transforms.scss */
+  /* line 106, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 53, ../sass/_transforms.scss */
+  /* line 112, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(15deg); }
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg); }
 
-  /* line 54, ../sass/_transforms.scss */
+  /* line 119, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
-/* line 57, ../sass/_transforms.scss */
+/* line 128, ../sass/_transforms.scss */
 .rotate-right-arm {
   -webkit-transform-origin: 100% 0;
   -moz-transform-origin: 100% 0;
   -ms-transform-origin: 100% 0;
   -o-transform-origin: 100% 0;
   transform-origin: 100% 0;
-  -webkit-animation: right-arm .7s ease-in-out 3 alternate; }
+  -webkit-animation: right-arm .7s ease-in-out 3 alternate;
+  -moz-animation: right-arm .7s ease-in-out 3 alternate;
+  animation: right-arm .7s ease-in-out 3 alternate; }
 
 @-webkit-keyframes right-foot {
-  /* line 63, ../sass/_transforms.scss */
+  /* line 136, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 64, ../sass/_transforms.scss */
+  /* line 142, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(15deg); }
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg); }
 
-  /* line 65, ../sass/_transforms.scss */
+  /* line 149, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @-moz-keyframes right-foot {
-  /* line 63, ../sass/_transforms.scss */
+  /* line 136, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 64, ../sass/_transforms.scss */
+  /* line 142, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(15deg); }
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg); }
 
-  /* line 65, ../sass/_transforms.scss */
+  /* line 149, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @-ms-keyframes right-foot {
-  /* line 63, ../sass/_transforms.scss */
+  /* line 136, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 64, ../sass/_transforms.scss */
+  /* line 142, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(15deg); }
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg); }
 
-  /* line 65, ../sass/_transforms.scss */
+  /* line 149, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 @keyframes right-foot {
-  /* line 63, ../sass/_transforms.scss */
+  /* line 136, ../sass/_transforms.scss */
   from {
-    -webkit-transform: rotate(0); }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); }
 
-  /* line 64, ../sass/_transforms.scss */
+  /* line 142, ../sass/_transforms.scss */
   50% {
-    -webkit-transform: rotate(15deg); }
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg); }
 
-  /* line 65, ../sass/_transforms.scss */
+  /* line 149, ../sass/_transforms.scss */
   to {
-    -webkit-transform: rotate(0); } }
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
-/* line 68, ../sass/_transforms.scss */
+/* line 158, ../sass/_transforms.scss */
 .rotate-right-foot {
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-  -webkit-animation: right-foot .7s ease-in-out 3 alternate; }
+  -webkit-animation: right-foot .7s ease-in-out 3 alternate;
+  -moz-animation: right-foot .7s ease-in-out 3 alternate;
+  animation: right-foot .7s ease-in-out 3 alternate; }
 
-/* line 73, ../sass/_transforms.scss */
+/* line 165, ../sass/_transforms.scss */
 .body-part {
   position: absolute;
   transition-property: background; }
 
 @media all and (max-width: 699px) {
-  /* line 79, ../sass/_transforms.scss */
+  /* line 171, ../sass/_transforms.scss */
   .rotate-head {
     -webkit-transform-origin: 25% 30%;
     -moz-transform-origin: 25% 30%;
@@ -377,7 +625,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -o-transform-origin: 25% 30%;
     transform-origin: 25% 30%; }
 
-  /* line 82, ../sass/_transforms.scss */
+  /* line 174, ../sass/_transforms.scss */
   .rotate-tail {
     -webkit-transform-origin: 25% 50%;
     -moz-transform-origin: 25% 50%;
@@ -385,7 +633,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -o-transform-origin: 25% 50%;
     transform-origin: 25% 50%; }
 
-  /* line 85, ../sass/_transforms.scss */
+  /* line 177, ../sass/_transforms.scss */
   .rotate-left-arm {
     -webkit-transform-origin: 50% 0;
     -moz-transform-origin: 50% 0;
@@ -393,7 +641,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -o-transform-origin: 50% 0;
     transform-origin: 50% 0; }
 
-  /* line 88, ../sass/_transforms.scss */
+  /* line 180, ../sass/_transforms.scss */
   .rotate-right-arm {
     -webkit-transform-origin: 50% 0;
     -moz-transform-origin: 50% 0;
@@ -401,7 +649,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -o-transform-origin: 50% 0;
     transform-origin: 50% 0; }
 
-  /* line 91, ../sass/_transforms.scss */
+  /* line 183, ../sass/_transforms.scss */
   .rotate-right-foot {
     -webkit-transform-origin: 25% 25%;
     -moz-transform-origin: 25% 25%;

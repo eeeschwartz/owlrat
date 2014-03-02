@@ -14,60 +14,152 @@
 }
 
 @include keyframes(head) {
-  from { -webkit-transform: rotate(0); }
-  50% { -webkit-transform: rotate(8deg); }
-  to { -webkit-transform: rotate(0); }
+from { -webkit-transform:rotate(0);
+          -moz-transform:rotate(0);
+           -ms-transform:rotate(0);
+            -o-transform:rotate(0);
+               transform:rotate(0);
+      }
+  50%{
+       -webkit-transform:rotate(8deg);
+          -moz-transform:rotate(8deg);
+           -ms-transform:rotate(8deg);
+            -o-transform:rotate(8deg);
+               transform:rotate(8deg);
+      }
+  to{
+          -webkit-transform:rotate(0);
+             -moz-transform:rotate(0);
+              -ms-transform:rotate(0);
+               -o-transform:rotate(0);
+                  transform:rotate(0);
+      }
 }
-
 .rotate-head {
   @include transform-origin(50%, 60%);
   -webkit-animation: head .7s ease-in-out 3 alternate;
-   -moz-animation:   head .7s ease-in-out 3 alternate;
-   animation:        head .7s ease-in-out 3 alternate;
+     -moz-animation: head .7s ease-in-out 3 alternate;
+          animation: head .7s ease-in-out 3 alternate;
 }
 
 @include keyframes(tail) {
-  from { -webkit-transform: rotate(0); }
-  50% { -webkit-transform: rotate(-20deg); }
-  to { -webkit-transform: rotate(0); }
+from { -webkit-transform:rotate(0);
+          -moz-transform:rotate(0);
+           -ms-transform:rotate(0);
+            -o-transform:rotate(0);
+               transform:rotate(0);
+      }
+  50%{
+       -webkit-transform:rotate(-20deg);
+          -moz-transform:rotate(-20deg);
+           -ms-transform:rotate(-20deg);
+            -o-transform:rotate(-20deg);
+               transform:rotate(-20deg);
+      }
+  to{
+          -webkit-transform:rotate(0);
+             -moz-transform:rotate(0);
+              -ms-transform:rotate(0);
+               -o-transform:rotate(0);
+                  transform:rotate(0);
+      }
 }
 
 .rotate-tail {
   @include transform-origin(50%, 100%);
   -webkit-animation: tail .7s ease-in-out 3 alternate;
+     -moz-animation: tail .7s ease-in-out 3 alternate;
+          animation: tail .7s ease-in-out 3 alternate;
 }
 
 @include keyframes(left-arm) {
-  from { -webkit-transform: rotate(0); }
-  50% { -webkit-transform: rotate(-50deg); }
-  to { -webkit-transform: rotate(0); }
+from { -webkit-transform:rotate(0);
+          -moz-transform:rotate(0);
+           -ms-transform:rotate(0);
+            -o-transform:rotate(0);
+               transform:rotate(0);
+      }
+  50%{
+       -webkit-transform:rotate(-50deg);
+          -moz-transform:rotate(-50deg);
+           -ms-transform:rotate(-50deg);
+            -o-transform:rotate(-50deg);
+               transform:rotate(-50deg);
+      }
+  to{
+          -webkit-transform:rotate(0);
+             -moz-transform:rotate(0);
+              -ms-transform:rotate(0);
+               -o-transform:rotate(0);
+                  transform:rotate(0);
+      }
 }
 
 .rotate-left-arm {
   @include transform-origin(100%, 0);
   -webkit-animation: left-arm .7s ease-in-out 3 alternate;
+     -moz-animation: left-arm .7s ease-in-out 3 alternate;
+          animation: left-arm .7s ease-in-out 3 alternate;
 }
 
 @include keyframes(right-arm) {
-  from { -webkit-transform: rotate(0); }
-  50% { -webkit-transform: rotate(15deg); }
-  to { -webkit-transform: rotate(0); }
+from { -webkit-transform:rotate(0);
+          -moz-transform:rotate(0);
+           -ms-transform:rotate(0);
+            -o-transform:rotate(0);
+               transform:rotate(0);
+      }
+  50%{
+       -webkit-transform:rotate(15deg);
+          -moz-transform:rotate(15deg);
+           -ms-transform:rotate(15deg);
+            -o-transform:rotate(15deg);
+               transform:rotate(15deg);
+      }
+  to{
+          -webkit-transform:rotate(0);
+             -moz-transform:rotate(0);
+              -ms-transform:rotate(0);
+               -o-transform:rotate(0);
+                  transform:rotate(0);
+      }
 }
 
 .rotate-right-arm {
   @include transform-origin(100%, 0);
   -webkit-animation: right-arm .7s ease-in-out 3 alternate;
+     -moz-animation: right-arm .7s ease-in-out 3 alternate;
+          animation: right-arm .7s ease-in-out 3 alternate;
 }
 
 @include keyframes(right-foot) {
-  from { -webkit-transform: rotate(0); }
-  50% { -webkit-transform: rotate(15deg); }
-  to { -webkit-transform: rotate(0); }
+from { -webkit-transform:rotate(0);
+          -moz-transform:rotate(0);
+           -ms-transform:rotate(0);
+            -o-transform:rotate(0);
+               transform:rotate(0);
+      }
+  50%{
+       -webkit-transform:rotate(15deg);
+          -moz-transform:rotate(15deg);
+           -ms-transform:rotate(15deg);
+            -o-transform:rotate(15deg);
+               transform:rotate(15deg);
+      }
+  to{
+          -webkit-transform:rotate(0);
+             -moz-transform:rotate(0);
+              -ms-transform:rotate(0);
+               -o-transform:rotate(0);
+                  transform:rotate(0);
+      }
 }
 
 .rotate-right-foot {
   @include transform-origin(50%, 50%);
   -webkit-animation: right-foot .7s ease-in-out 3 alternate;
+     -moz-animation: right-foot .7s ease-in-out 3 alternate;
+          animation: right-foot .7s ease-in-out 3 alternate;
 }
 
 .body-part {
