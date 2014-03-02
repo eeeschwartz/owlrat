@@ -18,6 +18,21 @@ body {
   position: relative;
   top: 400px;
 }
+.copyright {
+  color: $grey;
+  display: block;
+  font-size: 1em;
+  font-weight: 200;
+  text-align: center;
+  position: relative;
+  top: 410px;
+  a {
+    color: $grey;
+    &:hover {
+      color: $pink;
+    }
+  }
+}
 .owl-rat {
   height: 605px;
   width: 431px;
@@ -57,5 +72,8 @@ body {
   .title {
     font-size: 3em;
     top: 230px;
+  }
+  .copyright {
+    top: 240px;
   }
 }
