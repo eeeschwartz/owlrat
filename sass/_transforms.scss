@@ -1,71 +1,94 @@
-.body-part {
-  position: absolute;
-  transition-property: background;
-  -webkit-animation: head .7s ease-in-out 3 alternate;
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
 }
 
-@-webkit-keyframes head {
+@include keyframes(head) {
   from { -webkit-transform: rotate(0); }
   50% { -webkit-transform: rotate(8deg); }
   to { -webkit-transform: rotate(0); }
 }
 
 .rotate-head {
-  //@extend .head;
   @include transform-origin(50%, 60%);
-  //-webkit-animation: head .7s ease-in-out 3 alternate;
+  -webkit-animation: head .7s ease-in-out 3 alternate;
+   -moz-animation:   head .7s ease-in-out 3 alternate;
+   animation:        head .7s ease-in-out 3 alternate;
 }
 
-@-webkit-keyframes tail {
+@include keyframes(tail) {
   from { -webkit-transform: rotate(0); }
   50% { -webkit-transform: rotate(-20deg); }
   to { -webkit-transform: rotate(0); }
 }
 
 .rotate-tail {
-  //@extend .tail;
   @include transform-origin(50%, 100%);
- // -webkit-animation: tail .7s ease-in-out 3 alternate;
+  -webkit-animation: tail .7s ease-in-out 3 alternate;
 }
 
-@-webkit-keyframes left-arm {
+@include keyframes(left-arm) {
   from { -webkit-transform: rotate(0); }
   50% { -webkit-transform: rotate(-50deg); }
   to { -webkit-transform: rotate(0); }
 }
 
 .rotate-left-arm {
-  //@extend .left-arm;
   @include transform-origin(100%, 0);
-  //-webkit-animation: left-arm .7s ease-in-out 3 alternate;
+  -webkit-animation: left-arm .7s ease-in-out 3 alternate;
 }
 
-@-webkit-keyframes right-arm {
+@include keyframes(right-arm) {
   from { -webkit-transform: rotate(0); }
   50% { -webkit-transform: rotate(15deg); }
   to { -webkit-transform: rotate(0); }
 }
 
 .rotate-right-arm {
-  //@extend .right-arm;
   @include transform-origin(100%, 0);
-  //-webkit-animation: right-arm .7s ease-in-out 3 alternate;
+  -webkit-animation: right-arm .7s ease-in-out 3 alternate;
 }
 
-
-@-webkit-keyframes right-foot {
+@include keyframes(right-foot) {
   from { -webkit-transform: rotate(0); }
   50% { -webkit-transform: rotate(15deg); }
   to { -webkit-transform: rotate(0); }
 }
 
 .rotate-right-foot {
-  //@extend .right-foot;
   @include transform-origin(50%, 50%);
-  //-webkit-animation: right-foot .7s ease-in-out 3 alternate;
+  -webkit-animation: right-foot .7s ease-in-out 3 alternate;
 }
 
+.body-part {
+  position: absolute;
+  transition-property: background;
+}
 
-// .rotate-right-foot, .rotate-left-foot, .rotate-right-arm, .rotate-left-arm, .rotate-tail, .rotate-head {
-//   @extend .body-part;
-// }
+@media all and (max-width: 699px) {
+  .rotate-head {
+    @include transform-origin(25%, 30%);
+  }
+  .rotate-tail {
+    @include transform-origin(25%, 50%);
+  }
+  .rotate-left-arm {
+    @include transform-origin(50%, 0);
+  }
+  .rotate-right-arm {
+    @include transform-origin(50%, 0);
+  }
+  .rotate-right-foot {
+    @include transform-origin(25%, 25%);
+  }
+}

@@ -1,12 +1,61 @@
 body {
-  cursor: url("../images/rat.jpg"), auto;
+  background: #fff;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 800;
 }
-
 .container {
-  margin: auto 0;
+  margin: 0 auto;
   width: 50%;
 }
-
 .container-index {
   padding-top: 100px;
+}
+.title {
+  color: $grey;
+  display: block;
+  font-size: 6em;
+  text-align: center;
+  position: relative;
+  top: 400px;
+}
+.owl-rat {
+  height: 605px;
+  width: 431px;
+  position: relative;
+  top: 370px;
+  left: 50%;
+  margin-top: -350px;
+  margin-left: -215px;
+}
+.play-icons {
+  background: url("../images/play-icons.png") 100% 100% no-repeat;
+  font: 0/0 a;
+  height: 59px;
+  margin: 40px auto 0 auto;
+  width: 59px;
+  &:hover {
+    background: url("../images/play-icons.png") 0 0 no-repeat;
+  }
+}
+.highlight {
+  color: $yellow;
+}
+.lowlight {
+  color: $pink;
+}
+
+@media all and (max-width: 699px) {
+  .owl-rat {
+    height: 303px;
+    width: 216px;
+    position: relative;
+    top: 200px;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -107px;
+  }
+  .title {
+    font-size: 3em;
+    top: 230px;
+  }
 }

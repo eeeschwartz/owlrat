@@ -1,17 +1,5 @@
-
-
-.owl-rat {
-  height: 605px;
-  width: 431px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -350px;
-  margin-left: -215px;}
-
-
 .head {
-  background: url("../images/owl-rat-head.png") 0 0 no-repeat;
+  background: url("../images/owl-rat-head.png") 0 100% no-repeat;
   height: 246px;
   left: 43px;
   top: 0;
@@ -73,4 +61,41 @@
   top: 440px;
   width: 150px;
   z-index: 4;
+}
+
+@media all and (max-width: 699px) {
+  .head {
+    background: url("../images/small-owl-rat-head.png") 0 0 no-repeat;
+    left: 21px;
+  }
+  .body {
+    background: url("../images/small-owl-rat-body.png") 0 0 no-repeat;
+    left: 33px;
+    top: 78px;
+  }
+  .tail {
+    background: url("../images/small-owl-rat-tail.png") 0 0 no-repeat;
+    left: 163px;
+    top: 36px;
+  }
+  .left-arm {
+    background: url("../images/small-owl-rat-left-arm.png") 0 0 no-repeat;
+    left: 66px;
+    top: 95px;
+  }
+  .right-arm {
+    background: url("../images/small-owl-rat-right-arm.png") 0 0 no-repeat;
+    top: 98px;
+    width: 56px;
+  }
+  .left-foot {
+    background: url("../images/small-owl-rat-left-foot.png") 0 0 no-repeat;
+    left: 71px;
+    top: 225px;
+  }
+  .right-foot {
+    background: url("../images/small-owl-rat-right-foot.png") 0 0 no-repeat;
+    left: 20px;
+    top: 220px;
+  }
 }

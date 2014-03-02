@@ -9,17 +9,120 @@
   <link rel="icon" type="image/x-icon" href="http://owlrat.com/favicon.ico" />
 
   <link rel="stylesheet" href="stylesheets/screen.css">
- <!--  // <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  // <script type="text/javascript" src="javascripts/jstween-1.1/jstween-1.1.min.js"></script> -->
   <script type="text/javascript" src="javascripts/main.js"></script>
+  <script type"text/javascript">
 
+  var bodyParts = new Array("head", "tail", "left-arm", "right-arm", "right-foot");
+
+  function rotateObject() {
+    bodyParts.forEach(function(bodyPart){
+      rotate(bodyPart);
+    });
+  };
+
+  function rotate(bodyPart) {
+    var img = document.getElementById( bodyPart + "-js");
+
+    img.setAttribute("class", bodyPart + " " + "body-part rotate-" + bodyPart );
+
+    setTimeout(function(){
+      img.setAttribute("class", bodyPart + " " + "body-part" );
+    }, 2500);
+  };
+
+  function play() {
+      var audio = document.getElementById("audio-js");
+
+      if (audio.paused) {
+        audio.play();
+      }
+      else {
+        audio.currentTime = 0;
+      }
+  };
+
+  function changeColorOwl() {
+    var img = document.getElementById("owl-js");
+
+    img.setAttribute("class", "lowlight");
+
+    setTimeout(function(){
+      img.setAttribute("class", " " );
+    }, 600);
+
+    setTimeout(function(){
+      img.setAttribute("class", "lowlight" );
+    }, 900);
+
+    setTimeout(function(){
+      img.setAttribute("class", " " );
+    }, 1300);
+
+    setTimeout(function(){
+      img.setAttribute("class", "lowlight" );
+    }, 1600);
+
+    setTimeout(function(){
+      img.setAttribute("class", " " );
+    }, 2000);
+  };
+
+  function changeColorRat() {
+    var img = document.getElementById("rat-js");
+
+    setTimeout(function(){
+      img.setAttribute("class", "highlight" );
+    }, 600);
+
+    setTimeout(function(){
+      img.setAttribute("class", " " );
+    }, 900);
+
+    setTimeout(function(){
+      img.setAttribute("class", "highlight" );
+    }, 1300);
+
+    setTimeout(function(){
+      img.setAttribute("class", " " );
+    }, 1600);
+
+    setTimeout(function(){
+      img.setAttribute("class", "highlight" );
+    }, 2000);
+
+    setTimeout(function(){
+      img.setAttribute("class", " " );
+    }, 2400);
+  };
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-48570720-1', 'owlrat.com');
+    ga('send', 'pageview');
+
+  </script>
 </head>
-<body class="container container-index">
 
- <!--  <div class="owl"></div> -->
-  <p class="sign">+</p>
-  <div class="rat"></div>
-  <a class="sign" href="owl-rat.html">=</a>
+<body>
+  <div class="container">
+    <div class="play-icons" onClick="rotateObject(), play(), changeColorOwl(), changeColorRat()">Play</div>
+      <section class="owl-rat">
 
+        <div class="head body-part" id="head-js"></div>
+        <div class="body"></div>
+        <div class="tail body-part" id="tail-js"></div>
+        <div class="left-arm body-part" id="left-arm-js"></div>
+        <div class="right-arm body-part" id="right-arm-js"></div>
+        <div class="left-foot" id="left-foot-js"></div>
+        <div class="right-foot body-part" id="right-foot-js"></div>
+
+      </section>
+      <audio id="audio-js" src="alright-alright-alright.mp3"></audio>
+  </div>
+   <h1 class="title"><span id="owl-js">OWL</span><span id="rat-js">RAT</span>!</h1>
 </body>
 </html>

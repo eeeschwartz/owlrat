@@ -56,138 +56,437 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 /* Authored Dependencies */
-/* line 1, ../sass/_transforms.scss */
-.body-part {
-  position: absolute;
-  transition-property: background;
-  -webkit-animation: head .7s ease-in-out 3 alternate; }
-
 @-webkit-keyframes head {
-  /* line 8, ../sass/_transforms.scss */
+  /* line 17, ../sass/_transforms.scss */
   from {
     -webkit-transform: rotate(0); }
 
-  /* line 9, ../sass/_transforms.scss */
+  /* line 18, ../sass/_transforms.scss */
   50% {
     -webkit-transform: rotate(8deg); }
 
-  /* line 10, ../sass/_transforms.scss */
+  /* line 19, ../sass/_transforms.scss */
   to {
     -webkit-transform: rotate(0); } }
 
-/* line 13, ../sass/_transforms.scss */
+@-moz-keyframes head {
+  /* line 17, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 18, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(8deg); }
+
+  /* line 19, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+@-ms-keyframes head {
+  /* line 17, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 18, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(8deg); }
+
+  /* line 19, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+@keyframes head {
+  /* line 17, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 18, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(8deg); }
+
+  /* line 19, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+/* line 22, ../sass/_transforms.scss */
 .rotate-head {
   -webkit-transform-origin: 50% 60%;
   -moz-transform-origin: 50% 60%;
   -ms-transform-origin: 50% 60%;
   -o-transform-origin: 50% 60%;
-  transform-origin: 50% 60%; }
+  transform-origin: 50% 60%;
+  -webkit-animation: head .7s ease-in-out 3 alternate;
+  -moz-animation: head .7s ease-in-out 3 alternate;
+  animation: head .7s ease-in-out 3 alternate; }
 
 @-webkit-keyframes tail {
-  /* line 20, ../sass/_transforms.scss */
+  /* line 30, ../sass/_transforms.scss */
   from {
     -webkit-transform: rotate(0); }
 
-  /* line 21, ../sass/_transforms.scss */
+  /* line 31, ../sass/_transforms.scss */
   50% {
     -webkit-transform: rotate(-20deg); }
 
-  /* line 22, ../sass/_transforms.scss */
+  /* line 32, ../sass/_transforms.scss */
   to {
     -webkit-transform: rotate(0); } }
 
-/* line 25, ../sass/_transforms.scss */
+@-moz-keyframes tail {
+  /* line 30, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 31, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(-20deg); }
+
+  /* line 32, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+@-ms-keyframes tail {
+  /* line 30, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 31, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(-20deg); }
+
+  /* line 32, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+@keyframes tail {
+  /* line 30, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 31, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(-20deg); }
+
+  /* line 32, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+/* line 35, ../sass/_transforms.scss */
 .rotate-tail {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   -o-transform-origin: 50% 100%;
-  transform-origin: 50% 100%; }
+  transform-origin: 50% 100%;
+  -webkit-animation: tail .7s ease-in-out 3 alternate; }
 
 @-webkit-keyframes left-arm {
-  /* line 32, ../sass/_transforms.scss */
+  /* line 41, ../sass/_transforms.scss */
   from {
     -webkit-transform: rotate(0); }
 
-  /* line 33, ../sass/_transforms.scss */
+  /* line 42, ../sass/_transforms.scss */
   50% {
     -webkit-transform: rotate(-50deg); }
 
-  /* line 34, ../sass/_transforms.scss */
+  /* line 43, ../sass/_transforms.scss */
   to {
     -webkit-transform: rotate(0); } }
 
-/* line 37, ../sass/_transforms.scss */
+@-moz-keyframes left-arm {
+  /* line 41, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 42, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(-50deg); }
+
+  /* line 43, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+@-ms-keyframes left-arm {
+  /* line 41, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 42, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(-50deg); }
+
+  /* line 43, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+@keyframes left-arm {
+  /* line 41, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 42, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(-50deg); }
+
+  /* line 43, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+/* line 46, ../sass/_transforms.scss */
 .rotate-left-arm {
   -webkit-transform-origin: 100% 0;
   -moz-transform-origin: 100% 0;
   -ms-transform-origin: 100% 0;
   -o-transform-origin: 100% 0;
-  transform-origin: 100% 0; }
+  transform-origin: 100% 0;
+  -webkit-animation: left-arm .7s ease-in-out 3 alternate; }
 
 @-webkit-keyframes right-arm {
-  /* line 44, ../sass/_transforms.scss */
+  /* line 52, ../sass/_transforms.scss */
   from {
     -webkit-transform: rotate(0); }
 
-  /* line 45, ../sass/_transforms.scss */
+  /* line 53, ../sass/_transforms.scss */
   50% {
     -webkit-transform: rotate(15deg); }
 
-  /* line 46, ../sass/_transforms.scss */
+  /* line 54, ../sass/_transforms.scss */
   to {
     -webkit-transform: rotate(0); } }
 
-/* line 49, ../sass/_transforms.scss */
+@-moz-keyframes right-arm {
+  /* line 52, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 53, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(15deg); }
+
+  /* line 54, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+@-ms-keyframes right-arm {
+  /* line 52, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 53, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(15deg); }
+
+  /* line 54, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+@keyframes right-arm {
+  /* line 52, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 53, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(15deg); }
+
+  /* line 54, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+/* line 57, ../sass/_transforms.scss */
 .rotate-right-arm {
   -webkit-transform-origin: 100% 0;
   -moz-transform-origin: 100% 0;
   -ms-transform-origin: 100% 0;
   -o-transform-origin: 100% 0;
-  transform-origin: 100% 0; }
+  transform-origin: 100% 0;
+  -webkit-animation: right-arm .7s ease-in-out 3 alternate; }
 
 @-webkit-keyframes right-foot {
-  /* line 57, ../sass/_transforms.scss */
+  /* line 63, ../sass/_transforms.scss */
   from {
     -webkit-transform: rotate(0); }
 
-  /* line 58, ../sass/_transforms.scss */
+  /* line 64, ../sass/_transforms.scss */
   50% {
     -webkit-transform: rotate(15deg); }
 
-  /* line 59, ../sass/_transforms.scss */
+  /* line 65, ../sass/_transforms.scss */
   to {
     -webkit-transform: rotate(0); } }
 
-/* line 62, ../sass/_transforms.scss */
+@-moz-keyframes right-foot {
+  /* line 63, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 64, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(15deg); }
+
+  /* line 65, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+@-ms-keyframes right-foot {
+  /* line 63, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 64, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(15deg); }
+
+  /* line 65, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+@keyframes right-foot {
+  /* line 63, ../sass/_transforms.scss */
+  from {
+    -webkit-transform: rotate(0); }
+
+  /* line 64, ../sass/_transforms.scss */
+  50% {
+    -webkit-transform: rotate(15deg); }
+
+  /* line 65, ../sass/_transforms.scss */
+  to {
+    -webkit-transform: rotate(0); } }
+
+/* line 68, ../sass/_transforms.scss */
 .rotate-right-foot {
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%; }
+  transform-origin: 50% 50%;
+  -webkit-animation: right-foot .7s ease-in-out 3 alternate; }
 
+/* line 73, ../sass/_transforms.scss */
+.body-part {
+  position: absolute;
+  transition-property: background; }
+
+@media all and (max-width: 699px) {
+  /* line 79, ../sass/_transforms.scss */
+  .rotate-head {
+    -webkit-transform-origin: 25% 30%;
+    -moz-transform-origin: 25% 30%;
+    -ms-transform-origin: 25% 30%;
+    -o-transform-origin: 25% 30%;
+    transform-origin: 25% 30%; }
+
+  /* line 82, ../sass/_transforms.scss */
+  .rotate-tail {
+    -webkit-transform-origin: 25% 50%;
+    -moz-transform-origin: 25% 50%;
+    -ms-transform-origin: 25% 50%;
+    -o-transform-origin: 25% 50%;
+    transform-origin: 25% 50%; }
+
+  /* line 85, ../sass/_transforms.scss */
+  .rotate-left-arm {
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    transform-origin: 50% 0; }
+
+  /* line 88, ../sass/_transforms.scss */
+  .rotate-right-arm {
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    transform-origin: 50% 0; }
+
+  /* line 91, ../sass/_transforms.scss */
+  .rotate-right-foot {
+    -webkit-transform-origin: 25% 25%;
+    -moz-transform-origin: 25% 25%;
+    -ms-transform-origin: 25% 25%;
+    -o-transform-origin: 25% 25%;
+    transform-origin: 25% 25%; } }
 /* Patterns */
-/* line 3, ../sass/_body-parts.scss */
+/* line 1, ../sass/_containers.scss */
+body {
+  background: #fff;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 800; }
+
+/* line 6, ../sass/_containers.scss */
+.container {
+  margin: 0 auto;
+  width: 50%; }
+
+/* line 10, ../sass/_containers.scss */
+.container-index {
+  padding-top: 100px; }
+
+/* line 13, ../sass/_containers.scss */
+.title {
+  color: #3c3934;
+  display: block;
+  font-size: 6em;
+  text-align: center;
+  position: relative;
+  top: 400px; }
+
+/* line 21, ../sass/_containers.scss */
 .owl-rat {
   height: 605px;
   width: 431px;
-  position: fixed;
-  top: 50%;
+  position: relative;
+  top: 370px;
   left: 50%;
   margin-top: -350px;
   margin-left: -215px; }
 
-/* line 13, ../sass/_body-parts.scss */
+/* line 30, ../sass/_containers.scss */
+.play-icons {
+  background: url("../images/play-icons.png") 100% 100% no-repeat;
+  font: 0/0 a;
+  height: 59px;
+  margin: 40px auto 0 auto;
+  width: 59px; }
+  /* line 36, ../sass/_containers.scss */
+  .play-icons:hover {
+    background: url("../images/play-icons.png") 0 0 no-repeat; }
+
+/* line 40, ../sass/_containers.scss */
+.highlight {
+  color: #ebcd2a; }
+
+/* line 43, ../sass/_containers.scss */
+.lowlight {
+  color: #d66694; }
+
+@media all and (max-width: 699px) {
+  /* line 48, ../sass/_containers.scss */
+  .owl-rat {
+    height: 303px;
+    width: 216px;
+    position: relative;
+    top: 200px;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -107px; }
+
+  /* line 57, ../sass/_containers.scss */
+  .title {
+    font-size: 3em;
+    top: 230px; } }
+/* line 1, ../sass/_body-parts.scss */
 .head {
-  background: url("../images/owl-rat-head.png") 0 0 no-repeat;
+  background: url("../images/owl-rat-head.png") 0 100% no-repeat;
   height: 246px;
   left: 43px;
   top: 0;
   width: 205px;
   z-index: 5; }
 
-/* line 22, ../sass/_body-parts.scss */
+/* line 10, ../sass/_body-parts.scss */
 .body {
   background: url("../images/owl-rat-body.png") 0 0 no-repeat;
   height: 422px;
@@ -197,7 +496,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 364px;
   z-index: 3; }
 
-/* line 32, ../sass/_body-parts.scss */
+/* line 20, ../sass/_body-parts.scss */
 .tail {
   background: url("../images/owl-rat-tail.png") 0 0 no-repeat;
   height: 97px;
@@ -206,7 +505,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 52px;
   z-index: 3; }
 
-/* line 41, ../sass/_body-parts.scss */
+/* line 29, ../sass/_body-parts.scss */
 .left-arm {
   background: url("../images/owl-rat-left-arm.png") 0 0 no-repeat;
   height: 195px;
@@ -215,7 +514,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 103px;
   z-index: 3; }
 
-/* line 50, ../sass/_body-parts.scss */
+/* line 38, ../sass/_body-parts.scss */
 .right-arm {
   background: url("../images/owl-rat-right-arm.png") 0 0 no-repeat;
   height: 170px;
@@ -224,7 +523,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 112px;
   z-index: 3; }
 
-/* line 59, ../sass/_body-parts.scss */
+/* line 47, ../sass/_body-parts.scss */
 .left-foot {
   background: url("../images/owl-rat-left-foot.png") 0 0 no-repeat;
   height: 154px;
@@ -234,7 +533,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 138px;
   z-index: 2; }
 
-/* line 69, ../sass/_body-parts.scss */
+/* line 57, ../sass/_body-parts.scss */
 .right-foot {
   background: url("../images/owl-rat-right-foot.png") 0 0 no-repeat;
   height: 153px;
@@ -243,55 +542,45 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 150px;
   z-index: 4; }
 
+@media all and (max-width: 699px) {
+  /* line 67, ../sass/_body-parts.scss */
+  .head {
+    background: url("../images/small-owl-rat-head.png") 0 0 no-repeat;
+    left: 21px; }
+
+  /* line 71, ../sass/_body-parts.scss */
+  .body {
+    background: url("../images/small-owl-rat-body.png") 0 0 no-repeat;
+    left: 33px;
+    top: 78px; }
+
+  /* line 76, ../sass/_body-parts.scss */
+  .tail {
+    background: url("../images/small-owl-rat-tail.png") 0 0 no-repeat;
+    left: 163px;
+    top: 36px; }
+
+  /* line 81, ../sass/_body-parts.scss */
+  .left-arm {
+    background: url("../images/small-owl-rat-left-arm.png") 0 0 no-repeat;
+    left: 66px;
+    top: 95px; }
+
+  /* line 86, ../sass/_body-parts.scss */
+  .right-arm {
+    background: url("../images/small-owl-rat-right-arm.png") 0 0 no-repeat;
+    top: 98px;
+    width: 56px; }
+
+  /* line 91, ../sass/_body-parts.scss */
+  .left-foot {
+    background: url("../images/small-owl-rat-left-foot.png") 0 0 no-repeat;
+    left: 71px;
+    top: 225px; }
+
+  /* line 96, ../sass/_body-parts.scss */
+  .right-foot {
+    background: url("../images/small-owl-rat-right-foot.png") 0 0 no-repeat;
+    left: 20px;
+    top: 220px; } }
 /* Sections */
-/* line 19, ../sass/screen.scss */
-.owl,
-.rat,
-.sign {
-  display: block;
-  float: left; }
-
-/* line 24, ../sass/screen.scss */
-a {
-  color: black;
-  text-decoration: none; }
-
-/* line 29, ../sass/screen.scss */
-.sign {
-  font-size: 200px;
-  font-weight: bold;
-  margin: 0;
-  display: none; }
-
-/* line 37, ../sass/screen.scss */
-.rat {
-  background: url("../images/rat.jpg") 0 0 no-repeat;
-  height: 400px;
-  margin: auto;
-  width: 594px;
-  z-index: 5; }
-
-/* line 45, ../sass/screen.scss */
-.owl {
-  background: url("../images/owl.png") 0 0 no-repeat;
-  height: 292px;
-  width: 500px;
-  z-index: 5;
-  position: absolute; }
-
-/* line 53, ../sass/screen.scss */
-.target {
-  height: 292px;
-  background-color: #000000;
-  color: white;
-  font-size: 0.6em;
-  height: 100px;
-  overflow: hidden;
-  position: absolute;
-  text-align: center;
-  width: 100px; }
-
-/* line 65, ../sass/screen.scss */
-button {
-  height: 40px;
-  width: 200px; }
