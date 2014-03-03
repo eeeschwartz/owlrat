@@ -732,7 +732,7 @@ body {
     height: 303px;
     width: 216px;
     position: relative;
-    top: 200px;
+    top: 180px;
     left: 50%;
     margin-top: -175px;
     margin-left: -107px; }
@@ -740,11 +740,15 @@ body {
   /* line 72, ../sass/_containers.scss */
   .title {
     font-size: 3em;
-    top: 230px; }
+    top: 190px; }
 
   /* line 76, ../sass/_containers.scss */
   .copyright {
-    top: 240px; } }
+    top: 200px; }
+
+  /* line 79, ../sass/_containers.scss */
+  .play-icons {
+    margin: 10px auto 0 auto; } }
 /* line 1, ../sass/_body-parts.scss */
 .head {
   background: url("../images/owl-rat-head.png") 0 100% no-repeat;

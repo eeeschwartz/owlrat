@@ -64,16 +64,19 @@ body {
     height: 303px;
     width: 216px;
     position: relative;
-    top: 200px;
+    top: 180px;
     left: 50%;
     margin-top: -175px;
     margin-left: -107px;
   }
   .title {
     font-size: 3em;
-    top: 230px;
+    top: 190px;
   }
   .copyright {
-    top: 240px;
+    top: 200px;
+  }
+  .play-icons {
+    margin: 10px auto 0 auto;
   }
 }
