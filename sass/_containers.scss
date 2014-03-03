@@ -16,7 +16,7 @@ body {
   font-size: 6em;
   text-align: center;
   position: relative;
-  top: 400px;
+  top: 370px;
 }
 .copyright {
   color: $grey;
@@ -25,7 +25,7 @@ body {
   font-weight: 200;
   text-align: center;
   position: relative;
-  top: 410px;
+  top: 380px;
   a {
     color: $grey;
     &:hover {
@@ -37,7 +37,7 @@ body {
   height: 605px;
   width: 431px;
   position: relative;
-  top: 370px;
+  top: 360px;
   left: 50%;
   margin-top: -350px;
   margin-left: -215px;
@@ -46,7 +46,7 @@ body {
   background: url("../images/play-icons.png") 100% 100% no-repeat;
   font: 0/0 a;
   height: 59px;
-  margin: 40px auto 0 auto;
+  margin: 20px auto 0 auto;
   width: 59px;
   &:hover {
     background: url("../images/play-icons.png") 0 0 no-repeat;
@@ -71,10 +71,10 @@ body {
   }
   .title {
     font-size: 3em;
-    top: 180px;
+    top: 170px;
   }
   .copyright {
-    top: 185px;
+    top: 175px;
   }
   .play-icons {
     margin: 10px auto 0 auto;
