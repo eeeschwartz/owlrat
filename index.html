@@ -9,8 +9,8 @@
   <link rel="icon" type="image/x-icon" href="http://owlrat.com/favicon.ico" />
 
   <link rel="stylesheet" href="stylesheets/screen.css">
-  <!-- <script type="text/javascript" src="javascripts/main.js"></script> -->
-  <script type="text/javascript">
+  <script type="text/javascript" src="soundmanager2-jsmin.js"></script>
+  <script type"text/javascript">
 
   var bodyParts = new Array("head", "tail", "left-arm", "right-arm", "right-foot");
 
@@ -30,15 +30,20 @@
     }, 2500);
   };
 
-  function play() {
-      var audio = document.getElementById("audio-js");
 
-      if (audio.paused) {
-        audio.play();
-      }
-      else {
-        audio.currentTime = 0;
-      }
+  var sound;
+  window.onload = function() {
+    sound = soundManager.createSound({
+      id: 'mySound',
+      url: 'alright-alright-alright.mp3',
+      autoLoad: true,
+      autoPlay: false,
+      volume: 100,
+    });
+  };
+
+  function play() {
+    sound.play();
   };
 
   function changeColorOwl() {
@@ -121,7 +126,6 @@
         <div class="right-foot body-part" id="right-foot-js"></div>
 
       </section>
-      <audio id="audio-js" src="alright-alright-alright.mp3"></audio>
   </div>
    <h1 class="title"><span id="owl-js">OWL</span><span id="rat-js">RAT</span>!</h1>
    <small class="copyright">&copy; Copyright 2014 <a href="http://smithschwartz.com">Smith Schwartz</a></small>
